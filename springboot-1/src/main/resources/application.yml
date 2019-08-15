@@ -1,0 +1,13 @@
+server:
+  port: 8091
+  servlet:    context-path: /
+    
+#案例1，为属性赋值，YML可以写中文
+jdbc:
+  url: mysql的url
+  driverName: mysql数据库
+  userName: 用户名
+  
+jdbcb:
+  jdbcName: mysql
+  jdbcDriver: mysql驱动
